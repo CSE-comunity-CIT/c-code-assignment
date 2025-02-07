@@ -1,3 +1,9 @@
+/**
+ * Question: Write a programme in C to calculate sum of 3 numbers using user input .
+ */
+
+
+
 #include<stdio.h>
 
 int main(){
