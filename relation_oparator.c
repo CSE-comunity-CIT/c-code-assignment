@@ -22,6 +22,8 @@ int main(int argc, char const *argv[])
     int less_than_equal_result2 = b <= a; // Returns false 
     int less_than_equal_result3 = b <= 10; // Returns true 
 
+    
+
     printf("\nGreater than oparator result: %d", greater_than_result );
     printf("\nGreater than oparator result for second statement: %d", greater_than_result2 );
     
