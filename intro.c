@@ -4,23 +4,29 @@
 
 
 #include<stdio.h>
+#include<stdlib.h>
 
 int main(int argc, char const *argv[])
 {
-    char name[] = "";
+    char name[30] = "";
     char department[]="";
     int roll;
 
-    printf("Enter your name: ");
-    scanf("%s", &name);
 
+    printf("Enter your name: ");
+    // scanf("%s %s", name);
+    fgets(name,sizeof(name),stdin);
+
+    printf(name);
+    
     printf("Enter your roll: ");
     scanf("%d", &roll);
-
+    
     printf("Enter your department: ");
     scanf("%s", &department);
-
-    printf("Your are %s form %s department , and your roll is %d", name , department , roll);
+    
+    printf(name);
+    printf("Your are %.30s form %s department , and your roll is %d",name , department , roll);
 
     return 0;
 }
