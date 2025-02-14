@@ -4,6 +4,8 @@
 
 
  #include<stdio.h>
+ #include<ctype.h>
+
 
 
  int main(){
@@ -12,14 +14,27 @@
     printf("Please enter your charecter: ");
 	scanf("%c", &charecter);
 
+
+  
+    // charecter = tolower(charecter);
+
+    if(charecter >= 'A' && charecter <='Z'){
+        charecter = charecter -32;
+    }
+
+
+    if(charecter<'a' || charecter >'z'){
+        printf("You have entered a invalid charecter.");
+        return 0;// It will make function return and stop executing code.
+    }
+
+
     if(charecter == 'a' || charecter == 'e' || charecter == 'i' || charecter == 'o' || charecter == 'u'){
         printf("You have entered a vowel.");
-    }else if( ((charecter >= 'a' && charecter <= 'z') || (charecter >= 'A' && charecter <= 'Z')) && 
-    (charecter != 'a' || charecter != 'e' || charecter != 'i' || charecter != 'o' || charecter != 'u')){
 
-        printf("You have entered a consonent.");
+
     }else{
-        printf("You have entered a invalid charecter.");
+        printf("You have entered a consonent.");
     }
 
     return 0;
