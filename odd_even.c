@@ -1,5 +1,5 @@
 /**
- * Question: Write a programme to find wheather the given number is odd or even.
+ * Question: Write a programme to find whether the given number is odd or even.
  */
 
 

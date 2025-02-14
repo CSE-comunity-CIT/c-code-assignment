@@ -1,5 +1,5 @@
 /**
- * Question : Write a programme in C to determine wheather a person is eligible to vote or not
+ * Question : Write a programme in C to determine whether a person is eligible to vote or not
  */
 
 #include <stdio.h>

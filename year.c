@@ -1,5 +1,5 @@
 /**
- * Question: Write a programme in C to find wheather a given year is a leap year or not.
+ * Question: Write a programme in C to find whether a given year is a leap year or not.
  */
 
 

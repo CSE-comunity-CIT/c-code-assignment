@@ -1,5 +1,5 @@
 /**
- * Question: Write a programme in C to enter a char and then determine wheather it is a vowel or not;
+ * Question: Write a programme in C to enter a char and then determine whether it is a vowel or not;
  */
 
 

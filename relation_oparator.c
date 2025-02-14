@@ -1,5 +1,5 @@
 /**
- * Question : Write a programme in C to show the use of relational oparators.
+ * Question : Write a programme in C to show the use of reletional oparators.
  */
 
 #include<stdio.h>

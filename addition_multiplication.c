@@ -1,6 +1,6 @@
 /**
- *  Question : Write a programme in C to perform addition , substraction , divison ,
- *  multiplication and module divison on two interger numbers
+ *  Question : Write a programme in C to perform addition , substraction , division ,
+ *  multiplication and module division on two interger numbers
  * 
  */
 
