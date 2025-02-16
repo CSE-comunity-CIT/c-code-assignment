@@ -21,7 +21,7 @@ int main(){
             printf("The entered number is a positive odd number.");
         }
     }else if (number==0){
-        printf("The entered 0");
+        printf("You entered 0");
         
     }else{
         if(number%2 ==0 ){

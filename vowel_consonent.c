@@ -19,7 +19,7 @@
     // charecter = tolower(charecter);
 
     if(charecter >= 'A' && charecter <='Z'){
-        charecter = charecter -32;
+        charecter = charecter +32;
     }
 
 
