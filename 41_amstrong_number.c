@@ -1,3 +1,8 @@
+/**
+* Question: Write a programme in C to check whether a number is amstrong number or not using the function.
+*/
+
+
 #include<stdio.h>
 #include<math.h>
 

@@ -9,7 +9,7 @@
 int main(){
     int term;
 
-    printf("Plese enter the term number: ");
+    printf("Please enter the term number: ");
     scanf("%d",&term);
     
 

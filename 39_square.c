@@ -1,3 +1,7 @@
+/**
+* Question: Write a programme in C to square any number using the function.
+*/
+
 #include<stdio.h>
 
 double square(double number){

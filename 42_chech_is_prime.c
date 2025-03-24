@@ -1,3 +1,7 @@
+/**
+* Question: Write a programme in C to check whether a number is prime or not using the function.
+*/
+
 #include<stdio.h>
 
 int isPrime(int number){
@@ -5,8 +9,8 @@ int isPrime(int number){
     int counter = 0;
 
     for(int i = 1; i <= number; i++){
-        int reminder = number % i;
-        if(reminder==0){
+        int remainder = number % i;
+        if(remainder==0){
             counter++;
         }
     }

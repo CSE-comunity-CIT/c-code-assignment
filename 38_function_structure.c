@@ -1,3 +1,6 @@
+/**
+* Question: Write a programme in C to show the simple structure of a function.
+*/
 #include<stdio.h>
 
 int sum(int a, int b){
