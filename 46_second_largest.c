@@ -1,3 +1,6 @@
+/**
+* Question: Write a programme in C to find second largest number using an array of n numbers.
+*/
 #include<stdio.h>
 
 
@@ -18,16 +21,18 @@ int main(){
     }
 
     int largest= numbers[0];
+    int secondLargest = numbers[0];
 
     for(int i = 0; i< length; i++){
 
 
         if(numbers[i]> largest) {
-            largest = numbers;
-            numbers[i] = NULL;
+
+            secondLargest = largest;
+            largest = numbers[i];
         }
     }
 
-    // printf("\nThe second largest number is %d ", secondLargest);
+    printf("\nThe second largest number is %d ", secondLargest);
     return 0;
 }
