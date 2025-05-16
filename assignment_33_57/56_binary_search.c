@@ -1,4 +1,4 @@
-
+// Write a programme in C to implement binary search.
 #include <stdio.h>
 
 int binarySearch(int arr[], int n, int key) {

@@ -3,3 +3,8 @@
 .vscode
 build
 demo.c
+
+CMakeLists.txt
+
+main.c
+.idea

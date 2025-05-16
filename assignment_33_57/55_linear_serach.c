@@ -1,4 +1,4 @@
-
+// Write a programme in C to implement linear search.
 #include <stdio.h>
 
 int linearSearch(int arr[], int n, int key) {

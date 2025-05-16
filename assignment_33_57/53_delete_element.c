@@ -1,3 +1,5 @@
+// Write a programme in C to delete a number from a given location in an array.
+
 #include<stdio.h>
 
 void printArray(int *arr, int length){

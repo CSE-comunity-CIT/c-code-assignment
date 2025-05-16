@@ -1,4 +1,5 @@
-
+// Write a program in C to enter n no array and redisplay the array with
+// element being sorted in ascending order.
 #include<stdio.h>
 
 void sortArray(int *arr, int length){
